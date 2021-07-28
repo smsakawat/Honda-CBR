@@ -1,0 +1,29 @@
+/* home styles */
+.home-bg{
+    background-color: #264653;
+}
+.grayscale-item{
+    filter: grayscale(100%);
+}
+/* client styles */
+.orange-color{
+    color:#E76F51;
+}
+.icon-color{
+    color: #E77C40;
+}
+.client-name{
+    color:#23A6F0;
+    font-weight: 600;
+}
+.client-profession{
+    color: #252B42;
+    font-weight: 600;
+}
+.sara{
+    border-radius: 25%;
+}
+/* bike styles */
+.best-bike{
+    opacity: 0.3;
+}
