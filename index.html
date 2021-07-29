@@ -22,21 +22,21 @@
         <section class="container-fluid p-5 home-bg">
             <div class="row row-cols-1 row-cols-md-2 d-md-flex align-items-center justify-content-between">
                 <div class="col text-center text-md-start text-white ps-5">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <p>Welcome to Honda CBR-2021 exclusive bike collection e-commerce site.</p>
                     <h1 class="mb-3 fw-bolder">HONDA CBR 300R</h1>
                     <p class="mb-4">You don’t stop riding when you get old, you get old when you stop riding.Here you
                         can have the best bike for you.A bike on the road is worth two in the shed. </p>
-                    <!-- Button trigger modal -->
+                    <!-- Purchase Button trigger modal -->
                     <button type="button" class="btn btn-danger px-4" data-bs-toggle="modal"
                         data-bs-target="#modal">Purchase
                     </button>
                 </div>
-                <div class="col">
+                <div class="col mt-4">
                     <img src="images/header-bike.png" class=" pe-5 pb-5 w-100">
                 </div>
             </div>
 
-            <!-- Modal -->
+            <!--Purchase Modal -->
             <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -44,25 +44,40 @@
                             <h5 class="modal-title fs-2 fw-bold" id="modal">Buy Now</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            You can order your favourite bike models here or you can pre-order here for exclusive
-                            upcoming models.Down here give your email and send us your choice.
+                        <div class="modal-body lead">
+                            You can choose abd order your favourite bike model here or you can pre-order for our
+                            exclusive upcoming models.
+
                             <br>
                             <form>
-                                <label for="bike" class="form-label fw-bold">Choose your bike-</label>
-                                <select id="bike" class="form-select">
-                                    <option>CBR 300R V2</option>
-                                    <option>CBR 250R V3</option>
-                                    <option>CBR 200R V2</option>
-                                    <option>CBR 300R V1</option>
+                                <label for="bike" class="form-label fw-bold">Choose your bike:</label>
+                                <select id="bike" class="form-select my-3">
+                                    <option class="fs-5 fw-bold">CBR 300R V2</option>
+                                    <option class="fs-5 fw-bold">CBR 250R V3</option>
+                                    <option class="fs-5 fw-bold">CBR 200R V2</option>
+                                    <option class="fs-5 fw-bold">CBR 300R V1</option>
                                 </select>
-                                <label for="Email1" class="form-label">Your Email:</label>
-                                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control mb-3" id="email"
+                                        placeholder="enter your email">
+                                    <label for="eamil">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="emailPassword"
+                                        placeholder="Password">
+                                    <label for="eamilPassword mb-3">Password</label>
+                                </div>
+
+                                <div class="checkbox mb-3">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Remember me
+                                    </label>
+                                </div>
+                                <button class="w-100 btn btn-lg btn-danger" type="submit">Confirm Order</button>
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -70,12 +85,12 @@
 
         </section>
         <!-- best bike collections -->
-        <section class="container p-5 my-2">
+        <section class="container p-2 p-md-5">
             <div class="text-center mb-5">
                 <h2 class="fw-bold">Featured Bikes 2021</h2>
                 <small class="text-danger">Best Bike Collection</small>
             </div>
-            <div class="row d-md-flex align-items-center justify-content-between">
+            <div class="row d-md-flex align-items-center justify-content-between m-0 my-md-5">
                 <div class="col-12 col-lg-3 p-5 p-lg-0">
                     <img src="images/feature-bike.jpg" class="grayscale-item img-fluid">
                 </div>
@@ -88,7 +103,7 @@
             </div>
         </section>
         <!-- client information -->
-        <section class="container text-center p-5">
+        <section class="container text-center p-3">
             <h2 class="fw-bold mb-5">Happy <span class="orange-color">Clients Says</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -140,8 +155,7 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text mb-3">Hello!Killie here to give you guys some feedbacks.Honestly,i am
-                                too happy with honda bike.I bought one for my small brother.They also have official
-                                repair service center and training sercies.
+                                too happy with honda bike.I bought one for my small brother.It's so good.
 
                             </p>
                             <div class="mb-3">
@@ -274,10 +288,54 @@
                 <img src="images/white.jpg" class="card-img img-fluid best-bike" alt="...">
                 <div class="card-img-overlay">
                     <h2 class="card-title fw-bold my-0 my-md-4">Weekly Offer : Get 25% Discount Now</h2>
-                    <p class="card-text my-0 my-md-1">This is our new Honda CBR 300R White-V3.
+                    <p class="card-text my-0 my-md-1">This is our new Honda CBR 300R V3.
                     </p>
                     <p class="card-text fs-5 my-1 my-md-4">Grab Discount Here:</p>
-                    <button class="btn btn-outline-danger text-white px-2 px-md-4 mb-4">Order Now</button>
+                    <!--bike Button trigger modal -->
+                    <button type="button" class="btn btn-outline-danger text-white" data-bs-toggle="modal"
+                        data-bs-target="#Modal3">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+            <!--  Bike Modal -->
+            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ModalLabel3"> Grab Your 25% Discount :</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <h1 class="h3 mb-3 fw-normal">Choose Item:</h1>
+                                <div class="checkbox mb-3">
+                                    <label>
+                                        <input type="checkbox" value="CBR-300R White-V3">Honda CBR-300R White-V3
+                                    </label>
+                                </div>
+                                <div class="checkbox mb-3">
+                                    <label>
+                                        <input type="checkbox" value="CBR-300R Black-V3">Honda CBR-300R Black-V3
+                                    </label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control mb-3" id="email"
+                                        placeholder="enter your email">
+                                    <label for="eamil">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="emailPassword"
+                                        placeholder="Password">
+                                    <label for="eamilPassword mb-3">Password</label>
+                                </div>
+
+
+                                <button class="w-100 btn btn-lg btn-danger" type="submit">Confirm Order</button>
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -285,8 +343,8 @@
         <section class="container px-5 w-100">
             <h2 class="fw-bold text-center my-5">Our Training <span class="orange-color">Services</span></h2>
             </h2>
-            <div class="card text-center border-0 rounded-3 shadow-lg">
-                <div class="card-header fw-bold">Be a Proffessional Rider
+            <div class="card text-center training-service">
+                <div class="card-header fw-bold ">Be a Proffessional Rider
                 </div>
                 <div class="card-body">
                     <h2 class="card-title fw-bold">Improve Your Riding Skills With Our Motor-Cycle Training Courses.
@@ -295,14 +353,61 @@
                             provide the best riding course with our awesome riders.You can cantact us for our courses.
                         </p>
                         <p>To get connteced with our senior trainers,click the button down here.</p>
-                        <a href="#" class="btn btn-danger btn-lg">Contact Us</a>
+                        <!--Service Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            Contact Us
+                        </button>
+
                 </div>
 
             </div>
+            <!-- Service Modal -->
+            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ModalLabel2">To Contact Us Sign up here:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <h1 class="h3 mb-3 fw-normal">Please sign Up</h1>
+
+                                <div class="form-floating">
+                                    <input type="email" class="form-control mb-3" id="email"
+                                        placeholder="enter your email">
+                                    <label for="eamil">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="emailPassword"
+                                        placeholder="Password">
+                                    <label for="eamilPassword mb-3">Password</label>
+                                </div>
+
+                                <div class="checkbox mb-3">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Remember me
+                                    </label>
+                                </div>
+                                <button class="w-100 btn btn-lg btn-danger" type="submit">Sign UP</button>
+                                <p class="mt-5 mb-3 text-muted">© 2020–2021</p>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
+
     </main>
+    <!-- footer part -->
     <footer>
-        <p class="fw-bold text-center text-dark my-5">Love to ride, Live to travel.</p>
+        <p class="fw-bold text-center text-dark mt-5">Love to ride, Live to travel.</p>
+        <p class="mt-2 mb-3 text-muted fw-bold text-center">© 2020–2021 Honda-CBR</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
