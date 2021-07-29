@@ -27,7 +27,8 @@
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa mollitia,
                         doloribus eius dolores aliquid eum laboriosam tempore nam expedita!</p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal">Purchase
+                    <button type="button" class="btn btn-danger px-4" data-bs-toggle="modal"
+                        data-bs-target="#modal">Purchase
                     </button>
                 </div>
                 <div class="col">
@@ -40,15 +41,24 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="modal">Buy Now</h5>
+                            <h5 class="modal-title fs-2 fw-bold" id="modal">Buy Now</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             You can order your favourite bike models here or you can pre-order here for exclusive
                             upcoming models.Down here give your email and send us your choice.
                             <br>
-                            <label for="Email1" class="form-label">Your Email:</label>
-                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                            <form>
+                                <label for="bike" class="form-label fw-bold">Choose your bike-</label>
+                                <select id="bike" class="form-select">
+                                    <option>CBR 300R V2</option>
+                                    <option>CBR 250R V3</option>
+                                    <option>CBR 200R V2</option>
+                                    <option>CBR 300R V1</option>
+                                </select>
+                                <label for="Email1" class="form-label">Your Email:</label>
+                                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -87,9 +97,9 @@
                             <img src="images/user-1.png" class="card-img-top w-50" alt="...">
                         </div>
                         <div class="card-body">
-                            <p class="card-text mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Architecto
-                                pariatur, labore quam adipisci repellat nemo perferendis libero sit sunt natus?</p>
+                            <p class="card-text mb-3">This organization is too good.They have all kind of facilites that
+                                you need to be a rider.You buy a gorgeous bike from with a good discount and also you
+                                can have some training from their training courses.</p>
                             <div class="mb-3">
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
@@ -108,9 +118,9 @@
                             <img src="images/user-2.png" class="card-img-top w-50" alt="...">
                         </div>
                         <div class="card-body">
-                            <p class="card-text mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Architecto
-                                pariatur, labore quam adipisci repellat nemo perferendis libero sit sunt natus.</p>
+                            <p class="card-text mb-3">Hi!I'm Sara,I bought a vespa from honda.This is too good.If you
+                                want to grab a bike with reasonable price then you are in the right place.They also
+                                teaching riding courses,so if you have any lackings you can have one.</p>
                             <div class="mb-3">
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
@@ -129,9 +139,11 @@
                             <img src="images/user-3.jpg" class="card-img-top w-75" alt="...">
                         </div>
                         <div class="card-body">
-                            <p class="card-text mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Architecto
-                                pariatur, labore quam adipisci repellat nemo perferendis libero sit sunt natus.</p>
+                            <p class="card-text mb-3">Hello!Killie here to give you guys some feedbacks.Honestly,i am
+                                too happy with honda bike.I bought one for my small brother and also let him take a ride
+                                course from here.They also have official repair service center and that's so cool.
+
+                            </p>
                             <div class="mb-3">
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
                                 <i class="bi bi-star-fill me-1 icon-color"></i>
@@ -154,35 +166,21 @@
                     <img src="images/faq.png" class="w-75">
                 </div>
                 <div class="col mt-5">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush" id="questions">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Accordion Item #1
+                                    What are the most important things i should know about riding a bike?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion body.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Accordion Item #2
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                                aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                                <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                    traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just
+                                    “riding” your bike. This will help you be a more focused and legally compliant bike
+                                    rider. </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -190,16 +188,43 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    How to ride a motorbike safely?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                                <div class="accordion-body">Riding a motorcycle is adventurous and an exhilarating
+                                    experience. However, the harsh reality is that motorcycle riding can be very
+                                    dangerous if proper precautions are not taken. In 2016, the U.S. Department of
+                                    Transportation (DOT) estimated that motorcyclists were 28 times more likely to
+                                    die in a traffic accident than people in a car.Here is some tips for you:
+                                    <br>
+                                    <p class="fw-bold">1.Take a safety course.</p>
+                                    <p class="fw-bold">2.Check the weather before heading out.</p>
+                                    <p class="fw-bold">3.Inspect your motorcycle before each ride.</p>
+                                    <p class="fw-bold">4.Obey traffic rules, use your signals and drive the speed
+                                        limit.</p>
+                                    <p class="fw-bold">5.Wear motorcycle gear.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                                <div class="accordion-body">First of all you have to check your bike,
+                                    if any of bike's important part got damaged then you must have to repair it.If
+                                    thats not a important one you can have some ride for full testing,if you see any
+                                    major problem while riding then you should fix the issue.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -207,38 +232,40 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    What rules should I follow when riding my bike?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">Go With the Traffic Flow. Ride on the right in the same
+                                    direction as other vehicles.
+                                    Obey All Traffic Laws. A bike is a vehicle and you're a driver.So,you must have
+                                    to obey traffic rules
+                                    Yield to Traffic When Appropriate.
+                                    Be Predictable and
+                                    tay Alert at All Times.
+                                    Look Before Turning and always
+                                    Watch for Parked Cars.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
+                            <h2 class="accordion-header" id="flush-headingfive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    How i can i tell if my bike's clutch is old and i need a new one?
                                 </button>
                             </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive" data-bs-parent="#questions">
+                                <div class="accordion-body">For this you cantact with our official repair service
+                                    agency.We also provide very quality repair services.So don't worry if some of your
+                                    bike parts are old or damaged,feel free to contact our agency.
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <!-- best weekly offer on bike -->
         <section class="container pb-5">
@@ -268,7 +295,7 @@
                         <p class="card-text">We have many good riders to support you through your riding journey.We
                             provide the best riding course with our awesome riders.You can cantact us for our courses.
                         </p>
-                        <a href="#" class="btn btn-danger">Hire Now</a>
+                        <a href="#" class="btn btn-danger btn-lg">Hire Now</a>
                 </div>
 
             </div>
