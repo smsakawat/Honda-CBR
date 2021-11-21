@@ -1,5 +1,5 @@
 # Honda-CBR
-Full responsive landing pageusing html,Bootsrap5
+Full responsive landing page using html,Bootsrap5
 
 ### Live Site
 https://sakas-honda-web.netlify.app/
